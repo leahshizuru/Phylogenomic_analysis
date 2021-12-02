@@ -14,7 +14,7 @@
 # -j specifies the amount of cores that can be run simultaneously, however this option is currently unavailable. Script will proceed with single-core trimming.
 # --illumina because we're interested in trimming off the first 13bp of the Illumina universal adapter AGATCGGAAGAGC
 # --paired because we're working with PE data
-# ** -o specifies files to which this script will target?
+# -o specifies files to which this script will target?
 # brace expansion enables Trim Galore! to grab all files that are named _raw_F.fastq.gz and _raw_R.fastq.gz and apply the specified trimming parameters
 # read messages generated during process because this will inform you on run parameters and where output files will be stored
 # output files typically stored in ./trim_galore/ (trim_galore directory created in your current working directory)
