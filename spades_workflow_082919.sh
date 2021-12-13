@@ -1,5 +1,7 @@
 #### De novo genome assembly (Trim Galore!, SPAdes, QUAST, BWA, NCBI, and Tablet) ####
 
+## code adopted from Evan W. Barba ##
+
 # How does your data look post FastQC (or MultiQC) inspection? Did it pass most of the quality checks in the various modules given ezRAD parameters? 
 
 # Trim Galore!: 
