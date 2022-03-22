@@ -7,4 +7,13 @@ Transferred annotations from __________ to our de novo using Geneious.
 
 The second submission to BankIt was mostly correct, however it was still rejected due to COI and ND5 discrepencies. Initial BankIt submission was completely rejected because the wrong genetic code was used, thus stipulating an incorrect reading frame.
 
-In order to amend 
+In order to amend the annotations we will extract COI and ND5 from Antipathes cf. dichotoma (https://www.ncbi.nlm.nih.gov/nuccore/MT318841.1), Phanopathes sp. (https://www.ncbi.nlm.nih.gov/nuccore/MT318852.1), Stichopathes sp. (https://www.ncbi.nlm.nih.gov/nuccore/MZ157399.1)
+
+Downloaded fasta and GFF3 files for all of the above and put those files into Geneious. Once you load both documents into Geneious you will be able to see gene annotations.
+
+In order to extract the gene of interest 
+1) select gene (ND5 or CO1)
+2) right click "Copy Sequence Name & Bases"
+3) go to "Sequence" in the tab/drop down options
+4) select "Create new sequence" and paste the sequence and sequence name here. (Get rid of the name as we are only interested in the bases)
+
