@@ -1,7 +1,5 @@
 
 Genome Annotation for Antipatharians 
 
-Kayal et al. 2013 et. selected "The Mold, Protozoan, and Coelenterate Mitochondrial Code and the Mycoplasma/Spiroplasma Code (transl_table=4)" for their annotations on GenBank.
-
-Barrett et al. 2020 utilized the following settings on Mitos2 (Bernt et al., 2013) to confirm annotations: NCBI RefSeq 81 Metazoa and genetic code 4 (mold, protozoan and coelenterate mitochondrial code).
+Kayal et al. 2013 selected "The Mold, Protozoan, and Coelenterate Mitochondrial Code and the Mycoplasma/Spiroplasma Code (transl_table=4)" for their annotations on GenBank. Barrett et al. 2020 utilized the following settings on Mitos2 (Bernt et al., 2013) to confirm annotations: NCBI RefSeq 81 Metazoa and genetic code 4 (mold, protozoan and coelenterate mitochondrial code).
 
