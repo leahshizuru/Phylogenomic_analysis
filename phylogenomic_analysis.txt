@@ -3,3 +3,8 @@ Genome Annotation for Antipatharians
 
 Kayal et al. 2013 selected "The Mold, Protozoan, and Coelenterate Mitochondrial Code and the Mycoplasma/Spiroplasma Code (transl_table=4)" for their annotations on GenBank. Barrett et al. 2020 utilized the following settings on Mitos2 (Bernt et al., 2013) to confirm annotations: NCBI RefSeq 81 Metazoa and genetic code 4 (mold, protozoan and coelenterate mitochondrial code).
 
+Transferred annotations from __________ to our de novo using Geneious.
+
+The second submission to BankIt was mostly correct, however it was still rejected due to COI and ND5 discrepencies. Initial BankIt submission was completely rejected because the wrong genetic code was used, thus stipulating an incorrect reading frame.
+
+In order to amend 
