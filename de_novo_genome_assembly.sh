@@ -24,7 +24,7 @@
 # QUAST:
 
 	if [ ! -d "quast" ]; then
-    mkdir quast
+  mkdir quast
 	fi
 
 	KMER=(` find ./ -maxdepth 1 -name "K*" | cat  `)
