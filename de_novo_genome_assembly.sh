@@ -8,7 +8,7 @@
 	mkdir trim_galore
 	fi
 
-# cd into directory where fastq.gz files are located and employ the following to batch process pair-end fastq.gz files
+# cd into directory where fastq.gz files are located and employ the following to batch process on pair-end fastq.gz files
 # files had the following naming scheme: sampleID_raw_F.fastq.gz and sampleID_raw_R.fastq.gz
 # -j specifies the amount of cores that can be run simultaneously, however this option is currently unavailable. Script will proceed with single-core trimming.
 # brace expansion enables Trim Galore! to grab all files that are named _raw_F.fastq.gz and _raw_R.fastq.gz and apply the specified trimming parameters
