@@ -1,6 +1,5 @@
 # De novo genome assembly (Trim Galore!, SPAdes, QUAST) for ezRAD data
 
-
 # before proceeding, inspect sequence data using MultiQC or FastQC 
 
 # Trim Galore!: 
