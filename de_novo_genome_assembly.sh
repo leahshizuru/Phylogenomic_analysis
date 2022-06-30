@@ -15,7 +15,7 @@
 	
 	find -name "*_raw_F.fastq.gz" | cut -d "_" -f1 | parallel -j 30 trim_galore --illumina --paired --retain_unpaired --fastqc -o trim_galore/ {}\_raw_F.fastq.gz {}\_raw_R.fastq.gz
 	
-  find ./ -name "*.F.fq.gz" | cut -d "." -f2 | sed 's/\///' > popslist
+  	find ./ -name "*.F.fq.gz" | cut -d "." -f2 | sed 's/\///' > popslist
 
 # SPAdes:
 
