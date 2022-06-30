@@ -1,6 +1,6 @@
 # IQ-TREE (for model selection & tree construction)
 
-# install Anaconda (alternatively you can install IQ-TREE mannually)
+# install Anaconda for downstream analyses (alternatively you can install IQ-TREE mannually)
 
 # Activate conda environment
 # Install IQ-TREE via Anaconda 
