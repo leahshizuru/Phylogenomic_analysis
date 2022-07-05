@@ -9,4 +9,7 @@ conda install -c bioconda iqtree
 
 # Find best partition scheme followed by tree inference and ultrafast bootstrap
 
-iqtree -s /Users/leahshizuru/data/Shizuru_et_al._alignment_Gblocks.fasta -p /Users/leahshizuru/data/Shizuru_et_al._partitions.txt -m MFP+MERGE -B 1000  
+iqtree -s /Users/leahshizuru/data/Shizuru_et_al._Gblocks_alignment.fasta -p /Users/leahshizuru/data/Shizuru_et_al._partitions.txt -m MFP+MERGE -B 1000  
+
+# reduce impact of overestimating branch support with UFBoot -bnni
+iqtree -s /Users/leahshizuru/data/Shizuru_et_al._Gblocks_alignment.fasta -p /Users/leahshizuru/data/Shizuru_et_al._partitions.txt -m MFP+MERGE -B 1000 -bnni
