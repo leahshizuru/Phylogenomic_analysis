@@ -19,3 +19,5 @@ iqtree -s /Users/leahshizuru/data/final_alignment.fasta -p /Users/leahshizuru/da
 
 #resample partitions and then sites within resampled partitions [iteration3]
 iqtree -s /Users/leahshizuru/data/final_alignment.fasta -p /Users/leahshizuru/data/Shizuru_et_al._partitions.nex -m MFP+MERGE -B 1000 -bnni --sampling GENESITE -T auto
+
+#iteration2 and iteration3 yielded the same phylogeny
