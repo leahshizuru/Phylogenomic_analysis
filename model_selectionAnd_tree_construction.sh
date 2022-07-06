@@ -11,5 +11,5 @@ conda install -c bioconda iqtree
 
 iqtree -s /Users/leahshizuru/data/Shizuru_et_al._Gblocks_alignment.fasta -p /Users/leahshizuru/data/Shizuru_et_al._partitions.txt -m MFP+MERGE -B 1000  
 
-# reduce impact of overestimating branch support with UFBoot -bnni
-iqtree -s /Users/leahshizuru/data/Shizuru_et_al._Gblocks_alignment.fasta -p /Users/leahshizuru/data/Shizuru_et_al._partitions.txt -m MFP+MERGE -B 1000 -bnni
+# reduce impact of overestimating branch support with UFBoot -bnni; determine best number of cores for run [named iteration1]
+iqtree -s /Users/leahshizuru/data/Shizuru_et_al._Gblocks_alignment.fasta -p /Users/leahshizuru/data/Shizuru_et_al._partitions.txt -m MFP+MERGE -B 1000 -bnni -T auto
