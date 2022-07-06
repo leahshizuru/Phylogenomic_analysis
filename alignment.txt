@@ -3,7 +3,7 @@ Alignment (Geneious 2022.1.1, MUSCLE/MUSCLE pluggin, Gblocks)
 Mitochondrial genome alignment for antipatharians (see Barrett et al. 2020; methods that follow reflect those of Shizuru et al. 2022 in review)
 
 #GenBank
-  download .fasta and .gff3 files from GenBank
+  download all relevant .fasta and .gff3 files from GenBank
 
 
 #Geneious Prime 2022.1.1
