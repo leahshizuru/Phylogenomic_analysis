@@ -21,3 +21,6 @@ iqtree -s /Users/leahshizuru/data/final_alignment.fasta -p /Users/leahshizuru/da
 iqtree -s /Users/leahshizuru/data/final_alignment.fasta -p /Users/leahshizuru/data/Shizuru_et_al._partitions.nex -m MFP+MERGE -B 1000 -bnni --sampling GENESITE -T auto
 
 #iteration2 and iteration3 yielded the same phylogeny
+
+#Implement ModelFinder, tree search, SH-aLRT test and ultrafast bootstrap with 1000 replicates [iteration4]
+iqtree -s /Users/leahshizuru/data/final_alignment.fasta -p /Users/leahshizuru/data/Shizuru_et_al._partitions.nex -m MFP+MERGE -B 1000 -alrt 1000 -bnni -T auto
