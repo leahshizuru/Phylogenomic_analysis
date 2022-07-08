@@ -4,29 +4,33 @@ Mitochondrial genome alignment for antipatharians (see Barrett et al. 2020; meth
 
 
 #GenBank
-  download all relevant .fasta and .gff3 files from GenBank 
+  Download all relevant .fasta and .gff3 files from GenBank 
 
 
 #Geneious Prime 2022.1.1
-  create a folder for each species and upload .fasta and .gff3 files to these folders
   
-  in each folder:
-    1) extract individual coding regions (CDS) from each species
+  Create a folder for each species and upload .fasta and .gff3 files to these folders
   
-    2) concatenate genes (remove intronic regions that are present in COX1 and ND5). Select "Concatenate Sequences" from the Tools menu.
+    in each folder:
+      1) extract individual coding regions (CDS) from each species
   
-  Using pluggin, perform MUSCLE alignment (with default parameters)
+      2) concatenate genes (remove intronic regions that are present in COX1 and ND5). Select "Concatenate Sequences" from the Tools menu.
+  
+  Perform MUSCLE alignment (with default parameters)
 
 
 #Gblocks (to eliminate poorly aligned positions in MUSCLE alignment)(http://molevol.cmima.csic.es/castresana/Gblocks/Gblocks_documentation.html)
+    upload MUSCLE alignment .fasta file to Gblocks and run executable
 
 
 #Geneious Prime 2022.1.1 & TextEdit
-  upload output .fasta file created by Gblocks and perform a pairwise alignment with an annotated & concatenated genome to obtain partitions needed for IQ-   TREE
+  Upload output .fasta file created by Gblocks and perform a pairwise alignment with an annotated & concatenated genome to obtain partitions needed for IQ-   TREE
   
   *** You will use this pairwise alignment (and partitions observed) in IQ-TREE. However, before exporting this alignment as a .fasta file remove the annotated & concatenated sequence from the alignment. This sequence was only used to obtain the partitions. ***
   
-  Save this alignment as a .nex file and edit this file in TextEdit to create a nexus file with partitions.
+  Export .fasta file
+  
+  Export alignment as a .nex file and edit this file in TextEdit to create a nexus file with partitions. (see example in repository)
 
 
 
