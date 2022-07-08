@@ -30,7 +30,7 @@ Mitochondrial genome alignment for antipatharians (see Barrett et al. 2020; meth
   
   Export .fasta file
   
-  Export alignment as a .nex file and edit this file in TextEdit to create a nexus file with partitions. (see example in repository)
+  Export alignment as a .nex file and edit this file in TextEdit to create a nexus file with partitions. (see Shizuru_et_al._partitions.nex for example)
 
 
 
