@@ -3,13 +3,18 @@ Alignment (Geneious 2022.1.1, MUSCLE/MUSCLE pluggin, Gblocks)
 Mitochondrial genome alignment for antipatharians (see Barrett et al. 2020; methods that follow reflect those of Shizuru et al. 2022 in review)
 
 #GenBank
-  download all relevant .fasta and .gff3 files from GenBank
+  download all relevant .fasta and .gff3 files from GenBank 
 
 
 #Geneious Prime 2022.1.1
-  concatenate genes from each species (remove intronic regions that are present in COX1 and ND5). This is done by extracting coding regions and then         selecting "Concatenate Sequences" from the Tools menu.
+  create a folder for each species and upload .fasta and .gff3 files to these folders
   
-  with pluggin, perform MUSCLE alignment (with default parameters)
+  in each folder:
+    1) extract individual coding regions (CDS) from each species
+  
+    2) concatenate genes (remove intronic regions that are present in COX1 and ND5). Select "Concatenate Sequences" from the Tools menu.
+  
+  Using pluggin, perform MUSCLE alignment (with default parameters)
 
 
 #Gblocks (to eliminate poorly aligned positions in MUSCLE alignment)(http://molevol.cmima.csic.es/castresana/Gblocks/Gblocks_documentation.html)
@@ -17,9 +22,9 @@ Mitochondrial genome alignment for antipatharians (see Barrett et al. 2020; meth
 #Geneious Prime 2022.1.1 & Text editor
   upload output .fasta file created by Gblocks and perform a pairwise alignment with an annotated & concatenated genome to obtain partitions needed for IQ-   TREE
   
-  *** You will use this pairwise alignment (and partitions observed) in IQ-TREE. However, before exporting this alignment as a .fasta file remove the concatenated sequence from the alignment. This sequence was only used to obtain the partitions. ***
+  *** You will use this pairwise alignment (and partitions observed) in IQ-TREE. However, before exporting this alignment as a .fasta file remove the annotated & concatenated sequence from the alignment. This sequence was only used to obtain the partitions. ***
   
-  Save this alignment as a .nex file and edit this file in Text editor in order to create a nexus file with partitions.
+  Save this alignment as a .nex file and edit this file in TextEdit to create a nexus file with partitions.
 
 
 
