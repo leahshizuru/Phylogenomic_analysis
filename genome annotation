@@ -1,1 +1,11 @@
-Utilize Mitos2 (http://mitos2.bioinf.uni-leipzig.de/index.py) 
+Genome annotation (Mitos2 and Geneious Prime)
+
+#Mitos2
+Upload de novo assembly to Mitos2 (http://mitos2.bioinf.uni-leipzig.de/index.py) 
+If working with antipatharian you will select RefSeq 89 Fungi and Genetic Code 4 (see Barrett et al. 2020)
+
+#Geneious Prime
+Final annotations for Cirrhipathes cf. anguina (Shizuru et al. 2022 in review) were carried out in Geneious Prime with the live annotate feature. 
+
+1) Create a folder in "Reference Features" containing the gff3 and .fasta files for species that were most similar (determined by previous BLAST search post assembly). The gff3 files will have the annotations, the .fasta files will contain only the sequence.
+2) Select the "Annotate & Predict" tab and choose the "Annotate from Database" option. Geneious will automatically go into the folder that you created within "Reference Features".
