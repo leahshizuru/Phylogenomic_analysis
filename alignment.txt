@@ -22,7 +22,7 @@ PART D: Determine partitions & create partition file
   
   *** You will use this pairwise alignment (and partitions observed) in IQ-TREE. Before exporting this alignment as a .fasta file remove the annotated & concatenated sequence from the alignment. This sequence was only used to obtain the partitions. ***
   
-  Export .fasta file (to be used in IQ-TREE)
+  Export as final_alignment.fasta  
   
   Export alignment as a .nex file and edit this file in TextEdit to create a nexus file with partitions. (see Shizuru_et_al._partitions.nex for example)
 
