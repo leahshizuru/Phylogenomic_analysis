@@ -6,4 +6,4 @@
  de novo genome assembly -> genome annotation -> alignment -> model selection & tree construction -> view and edit tree
  
 
-(Included in this repository is the nexus file that was created for Shizuru et al. 2022 (in review).)
+(Included in this repository is the nexus file that was created for Shizuru et al. 2022 in review.)
