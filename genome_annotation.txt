@@ -1,4 +1,4 @@
-Genome annotation (Mitos2 and Geneious Prime)
+Genome annotation (software required: Mitos2 and Geneious Prime)
 
 #Mitos2
 Upload de novo assembly to Mitos2 (http://mitos2.bioinf.uni-leipzig.de/index.py) 
