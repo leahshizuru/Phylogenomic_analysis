@@ -4,18 +4,18 @@ Mitochondrial genome alignment for antipatharians (see Barrett et al. 2020; meth
 
 
 PART A: *Concatenate Sequences (this is necessary pre-alignment for antipatharians, it may not be pertinent for your study organism. Perform a literature search prior to this step to see if this is necessary.)
-  Download all relevant .fasta and .gff3 files from GenBank and upload these pairing to Geneious Prime 
-  Create a folder for each species and upload .fasta and .gff3 files to these folders
+  Download all relevant .fasta and .gff3 files from GenBank and upload these pairs to Geneious Prime. 
+  Create a folder for each species and upload .fasta and .gff3 files to these folders.
   
     in each species folder:
-      1) extract individual coding regions (CDS) from each species
+      1) Extract individual coding regions (CDS) from each species.
   
       2) *Remove intronic regions that are present in COX1 and ND5. (Barrett et al. 2020  noted the presence of intronic regions in COX1 & ND5. This is a particular trait among antipatharians). Concatenate sequences by selecting "Concatenate Sequences" from the Tools menu.
   
 PART B: Perfom alignment using MUSCLE pluggin on Geneious Prime 2022.1.1 (default parameters will suffice)
  
 PART C: Eliminate poorly aligned positions in MUSCLE alignment using Gblocks (http://molevol.cmima.csic.es/castresana/Gblocks/Gblocks_documentation.html)
-    Upload MUSCLE alignment (.fasta file) to Gblocks and run executable
+    Upload MUSCLE alignment (.fasta file) to Gblocks and run executable.
     *This step is optional; there are conflicting views on this type of software. Use at your own discretion. Again, previous antipatharian phylogenomic studies have utilized this software which is why we opted to use it.
 
 PART D: Determine partitions & create partition file
@@ -23,7 +23,7 @@ PART D: Determine partitions & create partition file
   
   *** You will use this pairwise alignment (and partitions observed) in IQ-TREE. Before exporting this alignment as a .fasta file remove the annotated & concatenated sequence from the alignment. This sequence was only used to obtain the partitions. ***
   
-  Export as final_alignment.fasta  
+  Export as final_alignment.fasta.  
   
   Export alignment as a .nex file and edit this file in TextEdit to create a nexus file with partitions. (see Shizuru_et_al._partitions.nex for example)
 
