@@ -1,4 +1,4 @@
-View tree and modify branch labels (FigTree & Inkscape)
+View tree and modify branch labels (software required: FigTree & Inkscape)
 
 FigTree v1.4.4
   
