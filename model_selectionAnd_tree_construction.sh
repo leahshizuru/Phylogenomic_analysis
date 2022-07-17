@@ -1,4 +1,4 @@
-# IQ-TREE 2.2.0 (for model selection & tree construction)
+# Model selection & tree construction (software required: Anaconda, IQ-TREE 2.2.0)
 
 # install Anaconda (alternatively you can install IQ-TREE mannually)
 
