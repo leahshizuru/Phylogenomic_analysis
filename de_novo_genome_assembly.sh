@@ -1,4 +1,4 @@
-# De novo genome assembly (Trim Galore!, SPAdes, QUAST) for ezRAD data
+# De novo genome assembly for ezRAD data (software required: (Trim Galore!, SPAdes, QUAST)
 
 # before proceeding, inspect sequence data using MultiQC or FastQC 
 
