@@ -1,7 +1,10 @@
 Genome annotation (software required: Mitos2 and Geneious Prime)
 
+#Geneious Prime
+Go to the "Annotate & Predict" tab and select "Find Repeats...". Locate repeats (specifically at the start and end of the linear sequence). Remove one repeated section and then circularize the sequence. Export the edited sequence as a .fasta file.
+
 #Mitos2
-Upload de novo assembly to Mitos2 (http://mitos2.bioinf.uni-leipzig.de/index.py) 
+Upload the .fast file generated above to Mitos2 (http://mitos2.bioinf.uni-leipzig.de/index.py) 
 *If working with antipatharian select RefSeq 89 Fungi and Genetic Code 4 (see Barrett et al. 2020)
 
 #Geneious Prime
