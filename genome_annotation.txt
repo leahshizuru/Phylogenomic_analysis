@@ -5,7 +5,7 @@ Go to the "Annotate & Predict" tab and select "Find Repeats...". Locate repeats 
 
 #Mitos2
 Upload the .fast file generated above to Mitos2 (http://mitos2.bioinf.uni-leipzig.de/index.py) 
-*If working with antipatharian select RefSeq 89 Fungi and Genetic Code 4 (see Barrett et al. 2020)
+*If working with antipatharian select RefSeq 89 Metazoa and Genetic Code 4 (see Barrett et al. 2020)
 
 #Geneious Prime
 Final annotations for Cirrhipathes cf. anguina (Shizuru et al. 2022 in review) were carried out in Geneious Prime with the live annotate feature. 
