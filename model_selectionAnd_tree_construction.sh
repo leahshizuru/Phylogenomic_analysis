@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Model selection & tree construction (software required: Anaconda, IQ-TREE 2.2.0)
 
 # install Anaconda (alternatively you can install IQ-TREE mannually)
@@ -7,7 +9,6 @@
 conda activate
 conda install -c bioconda iqtree
 
-#for documentation see: (http://www.iqtree.org/doc/iqtree-doc.pdf)
 #find the best partition scheme, reduce impact of overestimating branch support with UFBoot -bnni; determine best number of cores for run [iteration2].
 iqtree -s /Users/leahshizuru/data/final_alignment.fasta -p /Users/leahshizuru/data/Shizuru_et_al._partitions.nex -m MFP+MERGE -B 1000 -bnni -T auto
 
