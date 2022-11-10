@@ -12,7 +12,9 @@ PART A: *Concatenate Sequences (this is necessary pre-alignment for antipatharia
   
       2) *Remove intronic regions that are present in COX1 and ND5. (Barrett et al. 2020  noted the presence of intronic regions in COX1 & ND5. This is a particular trait among antipatharians). Concatenate sequences by selecting "Concatenate Sequences" from the Tools menu.
   
-PART B: Perfom alignment using MUSCLE pluggin on Geneious Prime 2022.1.1 (default parameters will suffice)
+      3) Select all sequences. Go to Tools → Concatenate Sequences or Alignments.
+      
+PART B: Perfom alignment on all species using MUSCLE pluggin on Geneious Prime 2022.1.1 (default parameters will suffice)
  
 PART C: Eliminate poorly aligned positions in MUSCLE alignment using Gblocks (http://molevol.cmima.csic.es/castresana/Gblocks/Gblocks_documentation.html)
     Upload MUSCLE alignment (.fasta file) to Gblocks and run executable.
