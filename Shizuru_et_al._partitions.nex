@@ -1,18 +1,18 @@
 #NEXUS
 begin sets;
-	charset ATP6Gblocks = 1-699;
-	charset ATP8Gblocks = 700-912;
-	charset COX1Gblocks = 913-2505;
-	charset COX2Gblocks = 2506-3255;
-	charset COX3Gblocks = 3256-4044;
-	charset CYTBGblocks = 4045-5187;
-	charset ND1Gblocks = 5188-6237;
-	charset ND2Gblocks = 6238-7755;
-	charset ND3Gblocks = 7756-8112;
-	charset ND4Gblocks = 8113-9615;
-	charset ND4LGblocks = 9616-9915;
-	charset ND5Gblocks = 9916-11766;
-	charset ND6Gblock = 11767-12357;
+	charset ATP6Gblocks = 1-717;
+	charset ATP8Gblocks = 718-933;
+	charset COX1Gblocks = 934-4005;
+	charset COX2Gblocks = 4006-4755;
+	charset COX3Gblocks = 4756-5544;
+	charset CYTBGblocks = 5545-6687;
+	charset ND1Gblocks = 6688-7737;
+	charset ND2Gblocks = 7738-9425;
+	charset ND3Gblocks = 9426-9785;
+	charset ND4Gblocks = 9786-11291;
+	charset ND4LGblocks = 11292-11591;
+	charset ND5Gblocks = 11592-13559;
+	charset ND6Gblock = 13560-14192;
 
 end;
 
