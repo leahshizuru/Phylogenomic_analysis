@@ -16,9 +16,10 @@ PART A: *Concatenate Sequences (this is necessary pre-alignment for antipatharia
       
 PART B: Perfom alignment on all species using MUSCLE pluggin on Geneious Prime 2022.1.1 (default parameters will suffice)
  
-PART C: Eliminate poorly aligned positions in MUSCLE alignment using Gblocks (http://molevol.cmima.csic.es/castresana/Gblocks/Gblocks_documentation.html)
+PART C: Eliminate poorly aligned positions in MUSCLE alignment using Gblocks*** (http://molevol.cmima.csic.es/castresana/Gblocks/Gblocks_documentation.html)
     Upload MUSCLE alignment (.fasta file) to Gblocks and run executable.
-    *This step is optional; there are conflicting views on this type of software. Use at your own discretion. Again, previous antipatharian phylogenomic studies have utilized this software which is why we opted to use it.
+    ***This step is optional; there are conflicting views on this type of software. Use at your own discretion. Again, previous antipatharian phylogenomic studies have utilized this software which is why we opted to use it for our first paper. For our second paper we decided against this.
+    See: https://beta.nsf.gov/news/statistical-tool-finds-gaps-dna-datasets-shouldnt
 
 PART D: Determine partitions & create partition file
     Upload output .fasta file created by Gblocks to Geneious Prime and perform a pairwise alignment with an annotated & concatenated (antipatharian) mitogenome to obtain partitions  needed for IQ-   TREE
