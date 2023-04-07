@@ -22,7 +22,7 @@ PART C: Eliminate poorly aligned positions in MUSCLE alignment using Gblocks*** 
     See: https://beta.nsf.gov/news/statistical-tool-finds-gaps-dna-datasets-shouldnt
 
 PART D: Determine partitions & create partition file
-    Upload output .fasta file created by Gblocks to Geneious Prime and perform a pairwise alignment with an annotated & concatenated (antipatharian) mitogenome to obtain partitions  needed for IQ-   TREE
+    Upload output .fasta file created by Gblocks to Geneious Prime and perform a pairwise alignment with an annotated & concatenated (antipatharian) mitogenome (S. luetkeni) to obtain partitions  needed for IQ-   TREE
   
   *** You will use this pairwise alignment (and partitions observed) in IQ-TREE. Before exporting this alignment as a .fasta file remove the annotated & concatenated sequence from the alignment. This sequence was only used to obtain the partitions. ***
   
