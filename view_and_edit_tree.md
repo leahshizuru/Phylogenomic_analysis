@@ -17,10 +17,9 @@
 
 1. Open Inkscape and select "Load"
 2. Select .svg file that you saved from FigTree
-3. Pop-up window will appear. Check "Clip to" and select "art box", leave all other default import settings as they are and press "OK".
-4. Modify canvas space: File -> Document Properties. 
-5. Right click on the image and select "Ungroup". Do this multiple times until each component of the tree can be edited.
-6. You will be able to edit the branch labels accordingly (italicizing species and genus, leaving "cf.", "sp." and accession numbers non-italicized).
-7. Save as "portable document file" (.pdf)
+3. Right click on the image and select "Ungroup". Do this multiple times until each component of the tree can be edited.
+4. Modify canvas space: File -> Document Properties.
+5. Use selector tool to group objects
+6. Export as .png (https://www.google.com/search?q=export+document+in+inkscape&rlz=1C5CHFA_enUS996US997&oq=export+document+in+inkscape&aqs=chrome..69i57j0i546l2.12579j0j7&sourceid=chrome&ie=UTF-8#kpvalbx=_aJ8DZYSEHbLBkPIPwpq6qAs_31)
   
   >... Now you've got a figure that's publication worthy!
