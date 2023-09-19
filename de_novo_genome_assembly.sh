@@ -6,7 +6,7 @@
 	mkdir trim_galore
 	fi
 
-# cd into directory where fastq.gz files are located and employ the following to batch process on pair-end fastq.gz files
+# cd into directory where fastq.gz files are located and run the following to batch process pair-end reads
 # files had the following naming scheme: "sampleID_raw_F.fastq.gz" and "sampleID_raw_R.fastq.gz"
 # brace expansion enables Trim Galore! to grab all files that are named _raw_F.fastq.gz and _raw_R.fastq.gz and apply the specified trimming parameters
 	
@@ -14,7 +14,7 @@
 	
   	find ./ -name "*.F.fq.gz" | cut -d "." -f2 | sed 's/\///' > popslist
 
-# SPAdes:
+# SPAdes (utilize most recent release; older versions have bugs)
 
 	spades.py --careful -t 30 -m 300 -o /data/leah/spades/`sampleID` -1 `forward_trimmed_read` -2 `reverse_trimmed_read`
 
