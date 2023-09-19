@@ -36,3 +36,7 @@
 
 # BLAST large_contigs.fasta as a secondary check for assembly success
 
+#extract NODE "X" for ref. mt genome 
+#two line fasta where header is on a separate line 
+grep -A 1 "NODE_X_length_xx_cov_xxx" large_contigs.fasta > NODE_X.fasta
+
